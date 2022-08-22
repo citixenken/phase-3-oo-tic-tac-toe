@@ -1,3 +1,10 @@
 #!/usr/bin/env ruby
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
+
+# Instantiate an instance of TicTacToe
+puts "Welcome to TicTacToe Terminal Game!"
+new_game  = TicTacToe.new
+
+# Start the game by calling #play on that instance.
+new_game.play
